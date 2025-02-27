@@ -26,7 +26,7 @@ const Navbar = ({ links }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black z-10 font-sans">
+    <nav className="fixed top-0 left-0 w-full bg-black z-20 font-sans">
       <div className="flex justify-between items-center h-16 px-5 md:px-10">
         <p className="text-2xl font-bold text-slate-50">NewsPatrol</p>
         <ul className="hidden md:flex space-x-6">

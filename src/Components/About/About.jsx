@@ -4,15 +4,15 @@ import TextContainer from "../Container/TextContainer";
 // Array of news data
 const txtArr = [
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et optio voluptatum dolore.",
+    text: "The Great Wall of China is not visible from the Moon with the naked eye.",
     state: "True"
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et optio voluptatum dolore.",
+    text: "Humans only use 10% of their brain.",
     state: "False"
   },
   {
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et optio voluptatum dolore.",
+    text: "Water boils at 100°C (212°F) at sea level.",
     state: "True"
   }
 ];
