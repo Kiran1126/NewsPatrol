@@ -30,6 +30,30 @@ const linksArr = [
   }
 ];
 
+// This array of objects is used for the Social Madia links
+const socialLinks = [
+  {
+    url: "https://www.facebook.com/kiran.samanta.7568",
+    network: "facebook"
+  },
+  {
+    url: "https://www.instagram.com/i.__.am.__.kiran/?hl=en",
+    network: "instagram"
+  },
+  {
+    url: "https://www.linkedin.com/in/kiran-samanta-732604258/",
+    network: "linkedin"
+  },
+  {
+    url: "https://github.com/Kiran1126",
+    network: "github"
+  },
+  {
+    url: "https://discord.gg/hGhBXRvg",
+    network: "discord"
+  }
+];
+
 const App = () => {
   return(
     <Router>
@@ -42,7 +66,7 @@ const App = () => {
               <Banner />
               <About />
               <Faq />
-              <Contact />
+              <Contact icon={socialLinks} />
             </>
           }
         />

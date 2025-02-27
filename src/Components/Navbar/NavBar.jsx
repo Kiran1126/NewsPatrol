@@ -26,7 +26,7 @@ const Navbar = ({ links }) => {
   const [play, { stop }] = useSound(TapSound);
 
   return(
-    <section className="flex justify-evenly items-center h-auto w-screen bg-black fixed z-10">
+    <section className="flex justify-evenly items-center h-auto w-screen bg-black fixed z-10 font-sans">
       <div>
         <p className="text-2xl font-bold text-slate-50">NewsPatrol</p>
       </div>
