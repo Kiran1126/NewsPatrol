@@ -19,8 +19,8 @@ const linksArr = [
     url: '/About'
   },
   {
-    link: 'Results',
-    icon: 'work',
+    link: 'Faq',
+    icon: 'help',
     url: '/Result'
   },
   {
@@ -68,6 +68,24 @@ const App = () => {
               <Faq />
               <Contact icon={socialLinks} />
             </>
+          }
+        />
+        <Route
+          path="/About"
+          element={
+            <About />
+          }
+        />
+        <Route
+          path="/Faq"
+          element={
+            <Faq />
+          }
+        />
+        <Route
+          path="/Contact"
+          element={
+            <Contact icon={socialLinks} />
           }
         />
         <Route 
