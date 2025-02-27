@@ -1,0 +1,73 @@
+footer {
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    color: #DB945F;
+  }
+  
+  .right_text {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #DB945F;
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+  
+  .below {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+  }
+  
+  .left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 0px;
+    margin-top: 50px;
+  }
+  
+  .title {
+    font-size: 64px;
+    padding-left: 50px;
+  }
+  
+  .image {
+    width: 20px;
+  }
+  
+  .patrol_img {
+    width: 15rem;
+  }
+  
+  .right_icons {
+    font-size: 25px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    gap: 20px;
+    margin-top: 80px;
+  }
+  
+  .right_icons li {
+    list-style: none;
+  }
+  
+  .fa-brands {
+    color: #DB945F;
+  }
+  
+  .fa-solid {
+    color: #DB945F;
+  }
+  
+  /* Reset styles that were in your original body selector */
+  body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
