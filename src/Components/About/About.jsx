@@ -1,5 +1,5 @@
 import Background from "../../assets/Photo/About.jpg";
-import TextContainer from "../../Container/TextContainer";
+import TextContainer from "../Container/TextContainer";
 
 // Array of news data
 const txtArr = [
