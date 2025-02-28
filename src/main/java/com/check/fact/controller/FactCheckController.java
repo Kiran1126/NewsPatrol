@@ -7,7 +7,7 @@ import com.check.fact.service.FactCheckService;
 
 @RestController
 @RequestMapping("/api/fact-check")
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:5174")
 public class FactCheckController {
 
     private final FactCheckService factCheckService;
